@@ -68,6 +68,12 @@ export const metadata: Metadata = {
     canonical: SITE_URL,
   },
   category: 'technology',
+  icons: {
+    icon: [
+      { url: '/darcbugs-logo-clean.png', type: 'image/png' },
+    ],
+    apple: '/darcbugs-logo-clean.png',
+  },
 }
 
 export const viewport: Viewport = {
